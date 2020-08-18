@@ -1,9 +1,13 @@
+body {
+  background-color: #000000;
+}
+
 .carousel-container {
   height: 5%;
 }
 
 header {
-  background-color: black;
+  background-color: #323232;
   width: 100%;
 }
 
@@ -12,12 +16,112 @@ header {
 }
 
 .carousel-item {
-  height: 600px;
+  height: 800px;
 }
 
 .carousel-item img {
-  height: 600px;
+  height: 800px;
   object-fit: cover;
+}
+
+.box {
+  width: 100%;
+  margin: 5%;
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  display: block;
+}
+
+.wrapper {
+  float: left;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+}
+
+.wrapper2 {
+  float: right;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+}
+
+.container-menu {
+  width: 100%;
+  display: flex;
+  display: 80%;
+}
+
+.footwrapper {
+  background-color: #323232;
+  border: #000000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  allign-self: center;
+}
+
+#copyright {
+  color: #fdfdfd;
+  font-size: smaller;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  allign-self: center;
+}
+
+#wrapperbuttons {
+  color: #fbfbfb;
+  display: flex;
+  flex-direction: row;
+  margin-left: 72%;
+  allign-self: center;
+}
+
+#mailfooter {
+  float: right;
+  height: 17px;
+  width: 21px;
+  margin: 5%;
+}
+
+#facebookfooter {
+  float: right;
+  height: 17px;
+  width: 21px;
+  margin: 5%;
+}
+
+#twitterfooter {
+  float: right;
+  height: 17px;
+  width: 21px;
+  margin: 5%;
+}
+
+#instafooter {
+  float: right;
+  height: 17px;
+  width: 21px;
+  margin: 5%;
+}
+
+.footleft {
+  float: left;
+}
+
+.footright {
+  float: right;
+}
+
+p {
+  margin: 5%;
+}
+
+.pricing {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
